@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.1" xmlns="http://www.dmg.org/PMML-4_1">
+  <Header copyright="KNIME">
+    <Application name="KNIME" version="2.8.0"/>
+  </Header>
+  <DataDictionary numberOfFields="10">
+    <DataField dataType="integer" name="Age" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="17.0" rightMargin="90.0"/>
+    </DataField>
+    <DataField dataType="string" name="Employment" optype="categorical">
+      <Value value="Private"/>
+      <Value value="Consultant"/>
+      <Value value="SelfEmp"/>
+      <Value value="PSLocal"/>
+      <Value value="PSState"/>
+      <Value value="PSFederal"/>
+      <Value value="Unemployed"/>
+      <Value value="NA"/>
+      <Value value="Volunteer"/>
+    </DataField>
+    <DataField dataType="string" name="Education" optype="categorical">
+      <Value value="College"/>
+      <Value value="Associate"/>
+      <Value value="HSgrad"/>
+      <Value value="Bachelor"/>
+      <Value value="Yr12"/>
+      <Value value="Vocational"/>
+      <Value value="Master"/>
+      <Value value="Yr11"/>
+      <Value value="Yr10"/>
+      <Value value="Doctorate"/>
+      <Value value="Yr9"/>
+      <Value value="Yr5t6"/>
+      <Value value="Professional"/>
+      <Value value="Yr7t8"/>
+      <Value value="Preschool"/>
+      <Value value="Yr1t4"/>
+    </DataField>
+    <DataField dataType="string" name="Marital" optype="categorical">
+      <Value value="Unmarried"/>
+      <Value value="Absent"/>
+      <Value value="Divorced"/>
+      <Value value="Married"/>
+      <Value value="Widowed"/>
+      <Value value="Married-spouse-absent"/>
+    </DataField>
+    <DataField dataType="string" name="Occupation" optype="categorical">
+      <Value value="Service"/>
+      <Value value="Transport"/>
+      <Value value="Clerical"/>
+      <Value value="Repair"/>
+      <Value value="Executive"/>
+      <Value value="Machinist"/>
+      <Value value="Sales"/>
+      <Value value="Professional"/>
+      <Value value="Support"/>
+      <Value value="Cleaner"/>
+      <Value value="Farming"/>
+      <Value value="NA"/>
+      <Value value="Protective"/>
+      <Value value="Home"/>
+      <Value value="Military"/>
+    </DataField>
+    <DataField dataType="double" name="Income" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="609.72" rightMargin="481259.5"/>
+    </DataField>
+    <DataField dataType="string" name="Gender" optype="categorical">
+      <Value value="Female"/>
+      <Value value="Male"/>
+    </DataField>
+    <DataField dataType="double" name="Deductions" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="2904.0"/>
+    </DataField>
+    <DataField dataType="integer" name="Hours" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="99.0"/>
+    </DataField>
+    <DataField dataType="integer" name="TARGET_Adjusted" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.0" rightMargin="1.0"/>
+    </DataField>
+  </DataDictionary>
+  <TransformationDictionary/>
+</PMML>
